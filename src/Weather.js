@@ -1,12 +1,12 @@
 import React, {useState} from "react";
 import axios from "axios";
 import Loader from "react-loader-spinner";
-//import Info from "./Info.js";
+import Info from "./Info.js";
 //import Forecast from "./Forecast.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Weather.css"
 
-//<Info data={weatherData}/>
+
 //<Forecast coords={weatherData.coords} units="metric"/>
 export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
@@ -56,7 +56,7 @@ export default function Weather(props) {
                 </form>
             </div>
                 
-
+            <Info data={weatherData}/>
                 
             
          </div>
