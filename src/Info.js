@@ -1,10 +1,10 @@
 import React from "react";
 import FormatDate from "./FormatDate.js";
-//import WeatherIcon from "./WeatherIcon.js";
+import WeatherIcon from "./WeatherIcon.js";
 import Units from "./Units.js"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Weather.css"
-//<WeatherIcon code={props.data.icon} alt={props.data.description}/>
+
 
 
 export default function Info(props) {
@@ -31,7 +31,7 @@ export default function Info(props) {
                             <Units temperature={props.data.temperature}/>
 
                                     <div className="float-left">
-
+                                    <WeatherIcon code={props.data.icon} alt={props.data.description}/>
                                     </div>
                                 
                             </div>
