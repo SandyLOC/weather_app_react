@@ -1,11 +1,11 @@
 import React from "react";
-//import FormatDate from "./FormatDate.js";
+import FormatDate from "./FormatDate.js";
 //import WeatherIcon from "./WeatherIcon.js";
 import Units from "./Units.js"
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Weather.css"
 //<WeatherIcon code={props.data.icon} alt={props.data.description}/>
-//<FormatDate date={props.data.date}/>
+
 
 export default function Info(props) {
     return (
@@ -13,7 +13,7 @@ export default function Info(props) {
                         <div className="col-sm-6">
                             <div className="result">
                                 <h1 className="city" id="city">{props.data.city}</h1>
-                                <h2 className="day">Date</h2>
+                                <h2 className="day"><FormatDate date={props.data.date}/></h2>
                             </div>
                             <div className="card" id="dataCard">
                                 <div className="card-body">
