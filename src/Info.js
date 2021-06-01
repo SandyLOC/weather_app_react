@@ -28,7 +28,7 @@ export default function Info(props) {
 
                         <div className="col">
                             <div className="clearfix">
-                                C | F
+                            {props.data.temperature} C | F
 
                                     <div className="float-left">
 
