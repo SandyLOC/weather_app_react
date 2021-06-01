@@ -1,9 +1,16 @@
+body {
+  color: #22afb7;
+}
 .App {
-  text-align: center;
+  margin: 0 auto;
+  align-items: center;
+}
+.header {
+ text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 5vmin;
   pointer-events: none;
 }
 
@@ -22,10 +29,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}  
+.codedby {
+  text-align: center;
+  font-size: 15px;
 }
-
-.App-link {
+.code {
   color: #61dafb;
+  font-size: 15px;
 }
 
 @keyframes App-logo-spin {
