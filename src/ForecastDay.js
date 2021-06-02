@@ -12,7 +12,7 @@ export default function ForecastDay(props) {
             "Fri",
             "Sat"
         ];
-        let daysForecast = new Date(props.data.dt *1000);
+        let daysForecast = new Date(props.data.dt * 1000);
         let dayShort = daysShort[daysForecast.getDay()];
     return (
         <div className="ForecastDay">

@@ -3,6 +3,7 @@ import axios from "axios";
 import Loader from "react-loader-spinner";
 import Info from "./Info.js";
 import Forecast from "./Forecast.js";
+//import ForecastTrial from "./ForecastTrial.js";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./Weather.css"
 
@@ -56,6 +57,7 @@ export default function Weather(props) {
                 
             <Info data={weatherData}/>
             <Forecast coords={weatherData.coords} units="metric"/>
+
             
          </div>
     </div>
