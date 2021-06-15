@@ -7,6 +7,8 @@ body {
 }
 .header {
  text-align: center;
+ color: black;
+ font-weight: 800; 
 }
 
 .App-logo {
@@ -28,14 +30,14 @@ body {
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(255, 255, 255);
 }  
 .codedby {
   text-align: center;
   font-size: 15px;
 }
 .code {
-  color: #03323f;
+  color: #07abd8;
   font-size: 15px;
 }
 
