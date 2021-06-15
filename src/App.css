@@ -21,7 +21,7 @@ body {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-image: url(background.jpg);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@ body {
   font-size: 15px;
 }
 .code {
-  color: #61dafb;
+  color: #03323f;
   font-size: 15px;
 }
 
