@@ -1,12 +1,12 @@
 body {
   color: #22afb7;
-}
-.App {
+}                                
+.App {                                                          
   margin: 0 auto;
   align-items: center;
 }
 .header {
- text-align: center;
+ text-align: center;                                                               
  color: black;
  font-weight: 800; 
 }
