@@ -19,7 +19,7 @@ export default function Units(props) {
         <div className="Units">
         <span className="today" id="today">{Math.round(props.temperature)}</span>
         <span className="units"> °C |
-            <a href="/" className="linkWeather" id="fahrenheit" onClick={showFahrenheit}> °F</a>
+            <a href="/" className="linkWeather active" id="fahrenheit" onClick={showFahrenheit}> °F</a>
         </span>
         </div>
     );

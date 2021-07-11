@@ -13,15 +13,15 @@
     margin: 20px 0px 10px 30px;
   }
   button {
-    color: rgb(34, 175, 183, 1);
+    color: rgb(81,228,255, 1);
      font-size: 20px;
     font-weight: bold;
-    background-color: rgb(34, 175, 183, 0.3);
-    border: rgb(34, 175, 183, 0.8);
+    background-color:rgb(81,228,255, 0.3);
+    border:1px solid rgb(81,228,255, 0.7);
     border-radius: 5px;
     height: 90%;
     margin-top: 2px;
-    padding: 5px 20px;
+    padding: 4px 20px 8px;
   }
   a {
     font-size: 20px;
@@ -36,7 +36,8 @@
     background-color: rgba(68, 73, 83, 0.8);
   }
   .principal {
-    background-color: rgba(68, 73, 83, 0.8);
+    background-color: rgba(68, 73, 83, 0.0);
+    border: 2px solid rgba(68, 73, 83, 1);
     border-radius: 8px;
     margin-left: 280px;
     width: 50%;
@@ -44,7 +45,7 @@
   .city {
     margin-left: 30px;
     font-size: 40px;
-    color: rgb(34, 175, 183, 0.8);
+    color: rgb(81,228,255, 0.7);
     font-weight: 700;
   }
   .day {
@@ -70,7 +71,7 @@
     top: -30px;
   }
   .active {
-    color:#22afb7;
+    color:rgb(81,228,255);
   }
   
   .forecast {
@@ -101,7 +102,7 @@
   #data {
 
     font-size: 18px;
-    color: rgb(189, 185, 185);
+    color: rgb(110, 108, 108);
     background-color: rgb(34, 175, 183, 0.0);
     line-height: 25px;
     list-style-type: none;
