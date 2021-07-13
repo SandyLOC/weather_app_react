@@ -1,5 +1,5 @@
 body {
-  color: #22afb7;
+  color: rgb(246,139,143);
 }                                
 .App {                                                          
   margin: 0 auto;
@@ -8,7 +8,7 @@ body {
 .header {
  text-align: center;                                                               
  color: black;
- font-weight: 800; 
+ font-weight: 300; 
 }
 
 .App-logo {
