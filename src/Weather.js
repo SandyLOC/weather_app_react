@@ -41,11 +41,11 @@ export default function Weather(props) {
     if(weatherData.loaded){
     return( 
     <div className="Weather">
-        <div className="card principal">
+        <div className="card principal mx-auto d-block">
             <div className="form">
                 <form onSubmit={handleSubmit}> 
                     <div className="row">
-                        <div className="col-sm-7">
+                        <div className="col-7">
                             <input type="search" className="form-control" placeholder="Enter a city..." onChange={loadCity} autoFocus="on"></input>
                         </div>
                         <div className="col-4">
